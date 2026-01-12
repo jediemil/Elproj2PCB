@@ -4489,12 +4489,6 @@
 		(uuid "3331c803-0952-436c-97ee-4888a8617173")
 	)
 	(junction
-		(at 115.57 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e6d1c0e-a160-4e28-acdb-4c0878f34bec")
-	)
-	(junction
 		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4679,6 +4673,10 @@
 		(uuid "85dfee19-8d83-4cb7-828e-5d4913b0847a")
 	)
 	(no_connect
+		(at 113.03 148.59)
+		(uuid "d03de4ca-9e2f-43ef-99f7-6a545a7b25e3")
+	)
+	(no_connect
 		(at 52.07 142.24)
 		(uuid "d880d370-27d9-4fec-873b-f0099871d0e2")
 	)
@@ -4776,16 +4774,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 139.7) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bba507b-3ca9-4b3d-b23d-139cb3978c70")
-	)
-	(wire
-		(pts
 			(xy 133.35 177.8) (xy 133.35 179.07)
 		)
 		(stroke
@@ -4816,16 +4804,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 139.7) (xy 115.57 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13fe95ff-aebc-4d3a-88e3-3a1a3325da12")
-	)
-	(wire
-		(pts
 			(xy 66.04 63.5) (xy 67.31 63.5)
 		)
 		(stroke
@@ -4833,6 +4811,16 @@
 			(type default)
 		)
 		(uuid "14970371-7efd-41ad-ac4e-cec51aa52ccc")
+	)
+	(polyline
+		(pts
+			(xy 113.03 139.7) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a58667-690c-43a3-9edf-0c23cdea660c")
 	)
 	(wire
 		(pts
@@ -4943,16 +4931,6 @@
 			(type default)
 		)
 		(uuid "2b1f1862-5b5b-4d7a-9639-7fa3ad87b8b4")
-	)
-	(wire
-		(pts
-			(xy 109.22 148.59) (xy 113.03 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b3bc301-e191-4077-8aa9-ddfe96a6f7a2")
 	)
 	(wire
 		(pts
@@ -5353,16 +5331,6 @@
 			(type default)
 		)
 		(uuid "52279a4b-42e4-46ed-bc4f-327bc5cef26f")
-	)
-	(wire
-		(pts
-			(xy 115.57 139.7) (xy 119.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522bec38-0183-4120-b0d9-a671ed988908")
 	)
 	(wire
 		(pts
@@ -6114,6 +6082,16 @@
 		)
 		(uuid "c3248225-1203-48d5-9442-65385ea17ec9")
 	)
+	(polyline
+		(pts
+			(xy 113.03 148.59) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4108094-c5a9-4129-b71c-bab22dbd4271")
+	)
 	(wire
 		(pts
 			(xy 77.47 53.34) (xy 16.51 53.34)
@@ -6353,6 +6331,16 @@
 			(type default)
 		)
 		(uuid "dbdd35ae-1c0f-405d-83b1-5adb7ec7ea14")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 119.38 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc314c7d-60cf-4bff-9d10-da4bbf7ac177")
 	)
 	(wire
 		(pts
@@ -6603,6 +6591,66 @@
 			(type default)
 		)
 		(uuid "ffff2790-fb40-4840-9409-d0fc34b9219e")
+	)
+	(label "IN+"
+		(at 53.34 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cee0829-b092-4b5e-97b7-cd9933cb4e96")
+	)
+	(label "IC-"
+		(at 100.33 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63b4866b-d680-47fa-8681-6313e87bbab7")
+	)
+	(label "IC+"
+		(at 100.33 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71282dd1-a69c-4dd9-83c3-c002a87d4368")
+	)
+	(label "FILTER+"
+		(at 71.12 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99ecbc20-1546-4be2-99be-465b45e21fd7")
+	)
+	(label "IN-"
+		(at 53.34 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5817070-0195-4c50-a703-e875993ad23b")
+	)
+	(label "FILTER-"
+		(at 71.12 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6660284-0cef-4227-beec-c1604036fe1f")
 	)
 	(global_label "AUDIO_OUT"
 		(shape input)
@@ -7514,92 +7562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2325")
-		(at 217.17 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a466bc-d4dc-42f8-973a-46d02737bbfb")
-		(property "Reference" "U4"
-			(at 217.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2335"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2325.pdf"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "58f3c8a7-c6aa-4e64-bdaa-57be38d5e548")
-		)
-		(pin "3"
-			(uuid "6484db0b-8766-40da-b826-d372d2d979cb")
-		)
-		(pin "2"
-			(uuid "cac82e19-fa47-4ee6-afa0-131b3116714e")
-		)
-		(pin "1"
-			(uuid "bd92f25e-f218-46f3-b7bd-5ca080216e36")
-		)
-		(pin "5"
-			(uuid "08bf752c-33f0-4e16-8b84-e484ec8dc1c7")
-		)
-		(pin "7"
-			(uuid "5de5b2bc-2ef0-4110-8db7-721baae89b45")
-		)
-		(pin "6"
-			(uuid "12fef2ef-a7f1-4715-a814-3ce71d13ee26")
-		)
-		(pin "8"
-			(uuid "b56251d0-0990-451e-86aa-70927dd7246b")
-		)
-		(instances
-			(project ""
-				(path "/da56035c-db89-42df-a028-3b16003bd672"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 166.37 0)
 		(unit 1)
@@ -8431,92 +8393,6 @@
 				(path "/da56035c-db89-42df-a028-3b16003bd672"
 					(reference "R16")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2325")
-		(at 218.44 62.23 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "282b253c-6798-4aed-a4a7-a58bec65666c")
-		(property "Reference" "U4"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2335"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2325.pdf"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "58f3c8a7-c6aa-4e64-bdaa-57be38d5e549")
-		)
-		(pin "3"
-			(uuid "6484db0b-8766-40da-b826-d372d2d979cc")
-		)
-		(pin "2"
-			(uuid "cac82e19-fa47-4ee6-afa0-131b3116714f")
-		)
-		(pin "1"
-			(uuid "bd92f25e-f218-46f3-b7bd-5ca080216e37")
-		)
-		(pin "5"
-			(uuid "08bf752c-33f0-4e16-8b84-e484ec8dc1c8")
-		)
-		(pin "7"
-			(uuid "5de5b2bc-2ef0-4110-8db7-721baae89b46")
-		)
-		(pin "6"
-			(uuid "12fef2ef-a7f1-4715-a814-3ce71d13ee27")
-		)
-		(pin "8"
-			(uuid "b56251d0-0990-451e-86aa-70927dd7246c")
-		)
-		(instances
-			(project ""
-				(path "/da56035c-db89-42df-a028-3b16003bd672"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -12191,6 +12067,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2325")
+		(at 217.17 80.01 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61c1d82-b9e2-4ef9-ba79-369b1b9a0c49")
+		(property "Reference" "U4"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2335"
+			(at 217.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 217.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2325.pdf"
+			(at 217.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8"
+			(at 217.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "58f3c8a7-c6aa-4e64-bdaa-57be38d5e549")
+		)
+		(pin "3"
+			(uuid "6484db0b-8766-40da-b826-d372d2d979cc")
+		)
+		(pin "2"
+			(uuid "cac82e19-fa47-4ee6-afa0-131b3116714f")
+		)
+		(pin "1"
+			(uuid "bd92f25e-f218-46f3-b7bd-5ca080216e37")
+		)
+		(pin "5"
+			(uuid "50a32920-6671-4717-b6a6-9fd3b5ec582f")
+		)
+		(pin "7"
+			(uuid "a36fbc54-bcdc-4c2c-a7be-d19184d787e4")
+		)
+		(pin "6"
+			(uuid "68dc39bf-92c8-4546-bc48-a6bb7d118565")
+		)
+		(pin "8"
+			(uuid "b56251d0-0990-451e-86aa-70927dd7246c")
+		)
+		(instances
+			(project "IO"
+				(path "/da56035c-db89-42df-a028-3b16003bd672"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 64.77 123.19 0)
 		(unit 1)
@@ -12515,6 +12477,92 @@
 			(project "IO"
 				(path "/da56035c-db89-42df-a028-3b16003bd672"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2325")
+		(at 218.44 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6af6715-51cf-4787-9097-0b75aa755eb3")
+		(property "Reference" "U4"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2335"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2325.pdf"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "58f3c8a7-c6aa-4e64-bdaa-57be38d5e548")
+		)
+		(pin "3"
+			(uuid "f06ae862-3993-4ff8-89b1-92513bc68987")
+		)
+		(pin "2"
+			(uuid "564d4552-86ad-400a-aaf6-61d53ea45bae")
+		)
+		(pin "1"
+			(uuid "c8258d5a-3abd-492b-9888-199da30e0d52")
+		)
+		(pin "5"
+			(uuid "08bf752c-33f0-4e16-8b84-e484ec8dc1c7")
+		)
+		(pin "7"
+			(uuid "5de5b2bc-2ef0-4110-8db7-721baae89b45")
+		)
+		(pin "6"
+			(uuid "12fef2ef-a7f1-4715-a814-3ce71d13ee26")
+		)
+		(pin "8"
+			(uuid "b56251d0-0990-451e-86aa-70927dd7246b")
+		)
+		(instances
+			(project "IO"
+				(path "/da56035c-db89-42df-a028-3b16003bd672"
+					(reference "U4")
 					(unit 1)
 				)
 			)

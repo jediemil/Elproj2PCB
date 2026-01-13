@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/emilr/Projekt/Elproj2PCB/Gerber/Batteri/")
 		)
 	)
 	(net 0 "")
@@ -7525,6 +7525,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Reyier"
+		(at 101.35 59.5 0)
+		(layer "B.SilkS")
+		(uuid "6a862781-b25b-43fd-9060-e53031edf3ac")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "GND\n"
 		(at 103.5 44.25 270)
 		(layer "B.SilkS")
@@ -7601,6 +7613,18 @@
 		(at 101.75 57.25 0)
 		(layer "B.SilkS")
 		(uuid "ae43af0b-d9a4-4c8e-b28d-929c15755684")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Elproj 2 batteriladdare\n"
+		(at 97.95 43.9 90)
+		(layer "B.SilkS")
+		(uuid "b8bbcf14-4480-4642-b642-226e5aba6471")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -10552,8 +10576,8 @@
 		)
 		(polygon
 			(pts
-				(xy 98.5 46.75) (xy 99.75 46.75) (xy 99.75 46.75) (xy 103.25 46.75) (xy 104.5 45.5) (xy 104.5 44.25)
-				(xy 105.75 44.25) (xy 105.75 46) (xy 104 47.75) (xy 102.5 47.75) (xy 98.5 47.75)
+				(xy 98.5 46.75) (xy 99.75 46.75) (xy 103.25 46.75) (xy 104.5 45.5) (xy 104.5 44.25) (xy 105.75 44.25)
+				(xy 105.75 46) (xy 104 47.75) (xy 102.5 47.75) (xy 98.5 47.75)
 			)
 		)
 		(filled_polygon

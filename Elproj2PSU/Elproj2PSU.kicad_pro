@@ -509,7 +509,7 @@
       "plot": "C:/Users/emilr/Projekt/Elproj2PCB/Gerber/PSU/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Elproj2PSU.step",
       "svg": "",
       "vrml": ""
     },

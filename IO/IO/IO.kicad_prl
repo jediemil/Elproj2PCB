@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -91,18 +91,18 @@
       11
     ],
     "col_widths": [
-      156,
-      141,
-      103,
-      71,
-      103,
-      103,
-      103,
-      74,
-      103,
-      103,
-      103,
-      103
+      258,
+      243,
+      150,
+      52,
+      150,
+      150,
+      150,
+      85,
+      150,
+      150,
+      150,
+      150
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
